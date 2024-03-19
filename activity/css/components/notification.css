@@ -4,6 +4,7 @@
   background: white;
   padding: 8px 16px;
   border-bottom: 1px solid rgb(235,235,235);
+  position: relative;
 }
 
 .notification .notification-content{
@@ -25,7 +26,10 @@
   line-height: 1.4;
 
 }
-
+.notification-actions{
+  position: absolute;
+  right: auto;
+}
 .notification .notification-actions a {
   color: #ffffff;
   margin-left: 16px;
