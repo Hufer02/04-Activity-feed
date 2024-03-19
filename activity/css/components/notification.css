@@ -1,0 +1,41 @@
+.notification{
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 8px 16px;
+  border-bottom: 1px solid rgb(235,235,235);
+}
+
+.notification .notification-content{
+  flex-grow: 1;
+  padding: 0 24px;
+}
+
+.notification:last-child {
+  border-bottom: none;
+}
+
+.notification img{
+  width: 56px;
+  border-radius: 50%;
+}
+
+.notification p {
+  margin: 10px;
+  line-height: 1.4;
+
+}
+
+.notification .notification-actions a {
+  color: #ffffff;
+  margin-left: 16px;
+  font-size: 14px;
+}
+
+.notification .notification-actions a:hover {
+  color: #555555;
+}
+.notification a{
+  text-decoration: none;
+  color: rgb(10, 130, 178);
+}
